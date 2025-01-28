@@ -1,0 +1,359 @@
+Program Design, key Points to consider when creating a program
+
+
+General informations:
+Sets (number of rounds of a given exercise)
+Reps (number of repetitions per set)
+Load (weight lifted)
+Intensity is usually expressed as a percentage of your 1RM (the maximum weight you can lift for one repetition).
+Low intensity: 60–70% of 1RM
+Moderate intensity: 75–85% of 1RM
+High intensity: 85–95% of 1RM
+Maximal intensity: 95%+ of 1RM
+→Intensity= (Load lifted​/1 rm)×100
+
+Organizational Structure
+A, B, C, and D labels categorize exercises into sequences or supersets, making workouts easy to follow. Each letter represents a distinct group of exercises or movement patterns to be performed in a specific order.
+Training Goals
+The A–D sequence ensures that exercises align with the goals of the workout:
+Strength or power training might focus heavily on the A and B series.
+Hypertrophy (muscle building) programs may incorporate more B and C series to target specific muscle groups.
+Functional fitness or conditioning may use the D series for additional work like core or endurance.
+→Prioritization
+A Series: Exercises labeled "A" are typically the primary or most important movements in the workout. These are often compound lifts like squats, deadlifts, bench presses, or pull-ups, which target multiple muscle groups and require the most energy and focus.
+B Series: Exercises in the "B" series are secondary but still important. These may include accessory lifts or compound movements with slightly less load or complexity.
+C Series: These exercises focus on smaller muscle groups, isolation work, or skill-specific training. Examples include bicep curls, tricep pushdowns, or mobility drills.
+D Series(optional): Often optional or lower-priority movements, these could include additional accessory work, core exercises, or conditioning components.
+
+
+A-D order is also crucial for fatigue Management
+This sequencing manages energy and fatigue:
+Early exercises (A, B) utilize higher intensity, heavier weights, or more technical movements when the body is fresh.
+Later exercises (C, D) are less demanding, focusing on smaller muscles or conditioning.
+Superset and Circuit Structure
+Sometimes, the letters also indicate supersets (e.g., A1, A2) or circuits:
+A1 and A2 might mean two exercises performed back-to-back with little rest.
+B1, B2, etc., indicate a different superset or sequence. 
+Example workout with A–D series
+A Series: Primary Lift
+A1: Barbell Back Squat (4 sets of 6-8 reps)
+B Series: Secondary Movements
+B1: Romanian Deadlift (3 sets of 8-10 reps)
+B2: Bulgarian Split Squat (3 sets of 8-10 reps each leg)
+C Series: Accessory Work
+C1: Dumbbell Lateral Raises (3 sets of 10-12 reps)
+C2: Hammer Curls (3 sets of 10 reps)
+D Series: Core/Conditioning
+D1: Plank Hold (3 sets of 45 seconds)
+D2: Russian Twists (3 sets of 20 reps)
+This structure creates a logical flow, balances energy use, and ensures all aspects of training are addressed effectively.
+
+
+
+
+
+2. Progression Across Phases (more in detail to the phases on point 5)
+Volume progressively decreases, while intensity increases:
+Phase
+Volume (Sets × Reps × Load)
+Intensity (%1RM)
+Focus
+Hypertrophy
+High
+65–75%
+Muscle growth
+Strength
+Moderate
+75–85%
+Maximal strength
+Power
+Low
+85–95%
+Force production
+Peaking
+Very low
+90–100%
+Maximal performance
+
+Determining Volume for Each Phase
+Estimate Weekly Volume:
+Base weekly volume on training experience:
+Beginner: ~10,000–15,000 kg/week.
+Intermediate: ~15,000–25,000 kg/week.
+Advanced: ~25,000–35,000 kg/week.
+Allocate Across Sessions:
+-Divide weekly volume into 3–5 sessions based on training frequency.
+-Ensure balanced muscle group training.
+Adjust by Phase:
+Start with higher weekly volume in hypertrophy.
+Gradually decrease as intensity increases in later phases.
+Training Plan overview example
+Goal: General strength with hypertrophy focus.
+Frequency: 3 days per week.
+Structure:
+Day 1: Lower Body (Squat Focus)
+Day 2: Upper Body (Bench Focus)
+Day 3: Full Body (Deadlift Focus)
+
+Week 1: Training Details
+Day 1: Lower Body
+Main Lift:
+Back Squat: 4 sets × 6 reps × 100 kg = 2,400 kg
+Accessory Work:
+Romanian Deadlift: 3 sets × 10 reps × 70 kg = 2,100 kg
+Bulgarian Split Squat: 3 sets × 12 reps (per leg) × 20 kg = 1,440 kg
+Leg Curls: 3 sets × 15 reps × 40 kg = 1,800 kg
+Total Volume: 7,740 kg
+Day 2: Upper Body
+Main Lift:
+Bench Press: 4 sets × 6 reps × 80 kg = 1,920 kg
+Accessory Work:
+Dumbbell Incline Press: 3 sets × 12 reps × 25 kg = 1,800 kg
+Pull-Ups: 4 sets × 10 reps × Bodyweight (75 kg) = 3,000 kg
+Tricep Pushdowns: 3 sets × 15 reps × 30 kg = 1,350 kg
+Total Volume: 8,070 kg
+
+Day 3: Full Body
+Main Lift:
+Deadlift: 4 sets × 5 reps × 120 kg = 2,400 kg
+Accessory Work:
+Front Squat: 3 sets × 8 reps × 70 kg = 1,680 kg
+Bent-Over Row: 4 sets × 8 reps × 60 kg = 1,920 kg
+Plank Holds: 3 sets × 60 seconds (bodyweight) = Not calculated as load-based.
+Total Volume: 6,000 kg
+Week 1 Summary
+Day 1 Total: 7,740 kg
+Day 2 Total: 8,070 kg
+Day 3 Total: 6,000 kg
+Weekly Volume: Sum= 21,810 kg
+Progression for Weeks 2–4
+Week 2:
+Increase load or reps llightly:
+Back Squat: 105 kg × 4 sets × 6 reps = 2,520 kg
+Bench Press: 85 kg × 4 sets × 6 reps = 2,040 kg
+Deadlift: 125 kg × 4 sets × 5 reps = 2,500 kg
+Accessory exercises: Slight increases in load (e.g., +5 kg) or maintain volume.
+Week 3:
+Slightly increase load again (optionally also/or sets):
+Back Squat: 4 sets × 6 reps × 110 kg = 2,640 kg
+Bench Press: 4 sets × 6 reps × 90 kg = 2,160 kg
+Deadlift: 4 sets × 5 reps × 130 kg = 2,600 kg
+Week 4 (Deload)/or( Maintain)→ deloads should only be implemented to people who train a lot, like athletes or who have a higher training age.
+Reduce Volume and Intensity:
+Back Squat: 3 sets × 6 reps × 90 kg = 1,620 kg
+Bench Press: 3 sets × 6 reps × 70 kg = 1,260 kg
+Deadlift: 3 sets × 5 reps × 100 kg = 1,500 kg
+Accessories: Perform 50–60% of regular load.
+Monthly Volume Summary
+Week
+Day 1 Volume
+Day 2 Volume
+Day 3 Volume
+Weekly Volume
+Week 1
+7,740 kg
+8,070 kg
+6,000 kg
+21,810 kg
+Week 2
+8,100 kg
+8,400 kg
+6,300 kg
+22,800 kg
+Week 3
+8,460 kg
+8,730 kg
+6,600 kg
+23,790 kg
+(Week 4
+5,040 kg
+5,220 kg
+4,500 kg
+14,760 kg)
+Week 4
+8,800 kg
+9,130 kg
+6,900 kg
+24,130 kg
+
+
+3. Define the 20% Spread
+To calculate a 20% spread across all sets, the total weight difference between the lightest set and the heaviest set (60 kg) is distributed evenly.
+Step 1: Total Spread and Number of Steps
+Spread Difference: 60 kg×0.2=12 kg  
+Spread applies across all sets, starting from the lightest set to the heaviest.
+Step 2: Determine Lightest Set Weight
+Subtract the total spread (12 kg) from the heaviest set to find the lightest set weight:
+Lightest Set Weight=60kg−12kg= 48kg
+Final Set Weights
+Set 1: 48 kg
+Set 2: 48+4=52 kg
+Set 3: 52+4=56 kg
+Set 4: 56+4=60 kg
+The weights would be: 48 kg, 52 kg, 56 kg, 60 kg.
+why spread?
+Beginner or Intermediate Lifters 20% spread for main lifts 
+Effectiveness: For beginners or intermediates, this type of spread can still be effective because it promotes gradual progression and teaches the body to handle increasing loads over time.
+Why: Beginners will still be improving their form, and the lower weights make it easier to build a foundation without risking injury. Intermediate lifters might see good results with hypertrophy and general strength gains from this spread, though they may need heavier lifts to continue progressing.
+Starting lighter allows you to refine your form and motor patterns before progressing to heavier loads. This is particularly useful for beginners or lifters focusing on technique.
+Avoiding Fatigue:By spreading the load, you reduce the risk of early fatigue. This is beneficial when the focus is on maintaining quality across all sets rather than peaking intensity.
+Comparison: 15% vs. 20% Spread   (idea for lighter training days)
+15% Spread: More consistent intensity, better for strength and hypertrophy training.
+20% Spread: Greater variation, which may be better for endurance or lighter training days.
+Reminder:
+Training Volume = Sets × Reps × Weight
+is typically manipulated by adjusting:
+Sets (number of rounds of a given exercise)
+Reps (number of repetitions per set)
+Load (weight lifted)
+Intensity is usually expressed as a percentage of your 1RM (the maximum weight you can lift for one repetition).
+Low intensity: 60–70% of 1RM
+Moderate intensity: 75–85% of 1RM
+High intensity: 85–95% of 1RM
+Maximal intensity: 95%+ of 1RM
+Intensity=   (Load lifted​/1 rm)×100
+4. Exercises to target weak points:
+Weak Posterior Chain: Romanian Deadlifts or Hip Thrusts
+Poor Shoulder Stability: Face Pulls or External Rotations.
+Knee Pain: step-ups, reverse lunges and leg extensions.
+Back Pain: back extension, generally all back exercises, deadlifts.
+Ensure Exercise Variety
+While consistency is key, variety prevents overuse injuries and plateaus:
+Rotate between similar exercises every 4–8 weeks 
+Use unilateral exercises (e.g., Bulgarian Split Squats) to build balance and stability.
+Order exercises to maximize performance:
+Primary Strength Lifts (e.g., Squats, Deadlifts)
+Accessory Work (e.g., Rows, Lunges)
+Isolation or Core Work (e.g., Curls, Planks)
+
+
+
+
+
+
+
+
+
+
+
+
+5. Linear Periodization (Training style)
+
+Phase 1: Hypertrophy/Endurance Phase (High Volume/ many sets)
+Goal: Build muscle mass and improve endurance by working with moderate weights and high volume.
+Duration: 4–6 weeks
+Rep Range: 8–12 reps (or 12–15 for endurance focus)
+Intensity: 60–75% of 1RM
+Rest Period: 60–90 seconds
+
+Phase 2: Strength-Endurance/Strength Foundation Phase (moderate volume/ still but lower than phase 1 )
+Goal: Build strength endurance and transition to heavier loads.
+Duration: 3–4 weeks
+Rep Range: 6–8 reps
+Intensity: 75–80% of 1RM
+Rest Period: 90–120 seconds
+Phase 3: Strength Phase (low volume high intensity)
+Goal: Increase maximal strength by lifting heavier loads with lower reps.
+Duration: 4–6 weeks
+Rep Range: 4–6 reps
+Intensity: 80–90% of 1RM
+Rest Period: 2–3 minutes
+How to adjust:
+If you were doing 4 sets of 10 reps with 70% of your 1RM in Phase 1, you may switch to 4 sets of 6–8 reps with 80% of your 1RM in Phase 2.
+
+→after each phase evaluate, whether you were able to do all the reps and sets, if yes then continue to the next phase and re-asses the 1 RM to adjust the intensity accordingly.
+
+
+
+Rep-Max Chart (Rep-Max Table) → more detail about intensity %
+
+1RM=W×(1+0.0333×R)
+A rep-max table or rep-max chart helps estimate your max performance for a given number of repetitions based on the weight lifted. You can use these charts to determine appropriate loads for specific rep ranges.
+For example, based on a known 1RM, you can look up the rep max for different reps and weights. Here's a simplified version of a rep-max table.
+example:
+Reps
+% of 1RM
+Example: 1RM = 100 kg
+1
+100%
+100 kg
+3
+93%
+93 kg
+5
+85%
+85 kg
+8
+77%
+77 kg
+10
+70%
+70 kg
+12
+65%
+65 kg
+15
+60%
+60 kg
+
+
+
+
+Rep Range
+Intensity (% of 1RM)
+Goal
+
+
+1–3 reps
+90–100%
+Strength/Power
+
+
+4–6 reps
+80–90%
+Strength
+
+
+6–8 reps
+75–85%
+Strength
+
+
+8–10 reps
+70–80%
+Hypertrophy
+
+
+10–12 reps
+65–75%
+Hypertrophy
+
+
+12–15 reps
+60–70%
+Hypertrophy/Endurance
+
+
+15+ reps
+50–60%
+Endurance
+
+
+
+
+Key Considerations for a 4-Phase Program:
+Progressive Overload:
+As intensity increases, the volume (sets and reps) should decrease to allow the body to adapt and grow stronger.
+Be mindful of making small, consistent increases in weight or reps to avoid plateaus.
+Exercise Variation:
+Change accessory exercises every 4–6 weeks to prevent stagnation and address muscle imbalances.
+Focus on compound movements during strength-focused phases and add isolation work during hypertrophy/endurance phases.
+Rest Periods:
+In strength phases (especially in Phase 3 and 4), you need longer rest periods to recover from heavy lifts (2–5 minutes).
+In hypertrophy/endurance phases, rest periods can be shorter (60–90 seconds) to increase metabolic stress.
+Periodization Goals:
+The first phases (1 and 2) build foundational muscle and strength, while later phases (3 and 4) focus on achieving peak performance and maximum strength.
+The transition between phases is gradual, so your body can adapt progressively without undue stress.
+Exercise Variation:
+
+Strategically changing exercises and loading strategies is critical to avoiding injury, staleness and maximizing long term success. Variation can be created through Loading Strategy, Exercise Selection and Tempo, the proper use of these elements will allow us to satisfy Directed Adaptation without running into Adaptive Resistance.
