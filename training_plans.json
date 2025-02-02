@@ -1,0 +1,2710 @@
+[
+    {
+        "Name ": "A",
+        "TrainingPlan": [
+            {
+                "Day": "* Day 1: 60 minutes",
+                "Exercises": []
+            },
+            {
+                "Day": "* Day 3: 60 minutes",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": [
+                    {
+                        "Name": "2. Barbell Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "3. Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "10-12  (per arm)"
+                    },
+                    {
+                        "Name": "4. Tricep Pushdowns",
+                        "Sets": 3,
+                        "Reps": "10-12  (per arm)"
+                    },
+                    {
+                        "Name": "5. Overhead Dumbbell Extension",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": [
+                    {
+                        "Name": "2. Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "3. Bent-Over Barbell Rows",
+                        "Sets": 3,
+                        "Reps": "10-12  (per arm)"
+                    },
+                    {
+                        "Name": "4. Dumbbell Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "10-12  (per arm)"
+                    },
+                    {
+                        "Name": "5. Hammer Curls",
+                        "Sets": 3,
+                        "Reps": "10-12  (per arm)"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3: Legs**",
+                "Exercises": [
+                    {
+                        "Name": "2. Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "3. Romanian Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    },
+                    {
+                        "Name": "4. Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4: Cardio and Rest**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "B",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Legs and Back**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Cardio and Active Recovery**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs and Back**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "C",
+        "TrainingPlan": [
+            {
+                "Day": "* **Day 1:** Full Body Workout (60 minutes)",
+                "Exercises": [
+                    {
+                        "Name": "- Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "- Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "- Single-Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2:** Hip and Lower Back Workout (60 minutes)",
+                "Exercises": [
+                    {
+                        "Name": "- Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "- Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "- Back Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3:** Cardio Day with Hip Abduction Exercises (60 minutes)",
+                "Exercises": [
+                    {
+                        "Name": "- Burpees",
+                        "Sets": 2,
+                        "Reps": "10-12  ( Hip abduction exercises included)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "D",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs and Shoulders**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "E",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1:** Back Squats (3 sets of 10-12 reps)",
+                "Exercises": [
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2:** Lat Pulldown and Bench Press (3 sets each of 10-12 reps)",
+                "Exercises": [
+                    {
+                        "Name": "* Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3:** Deadlifts and Hip Abduction (2 sets each of 10-12 reps)",
+                "Exercises": [
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4:** Rest Day**",
+                "Exercises": [
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 2,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "18-20"
+                    },
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 2,
+                        "Reps": "18-20"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "18-20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "G",
+        "TrainingPlan": [
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Single-Leg Deadlifts",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Back Extensions (seated row)",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": []
+            },
+            {
+                "Day": "* **Day 4**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Hip Abductions (seated leg press)",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "9-11"
+                    },
+                    {
+                        "Name": "+ Single-Leg Deadlifts",
+                        "Sets": 2,
+                        "Reps": "8-10  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Back Extensions (seated row)",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": []
+            },
+            {
+                "Day": "* **Day 4**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "9-11"
+                    },
+                    {
+                        "Name": "+ Hip Abductions (seated leg press)",
+                        "Sets": 2,
+                        "Reps": "8-10  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 5,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 4,
+                        "Reps": "7-9"
+                    },
+                    {
+                        "Name": "+ Single-Leg Deadlifts",
+                        "Sets": 3,
+                        "Reps": "6-8  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 5,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 5,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Back Extensions (seated row)",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": []
+            },
+            {
+                "Day": "* **Day 4**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 5,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 4,
+                        "Reps": "7-9"
+                    },
+                    {
+                        "Name": "+ Hip Abductions (seated leg press)",
+                        "Sets": 2,
+                        "Reps": "6-8  per leg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "Sohini",
+        "TrainingPlan": [
+            {
+                "Day": "| Day | Exercise | Sets Reps |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Kartikey",
+        "TrainingPlan": [
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Lunges",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Seated Row",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Lunges",
+                        "Sets": 2,
+                        "Reps": "8-10  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Seated Row",
+                        "Sets": 2,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Lunges",
+                        "Sets": 3,
+                        "Reps": "6-8  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldowns",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Seated Row",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Hip Abduction",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Lunges",
+                        "Sets": 3,
+                        "Reps": "4-6  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldowns",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Seated Row",
+                        "Sets": 3,
+                        "Reps": "4-6"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 5,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Hip Abduction",
+                        "Sets": 3,
+                        "Reps": "4-6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "Shivaksh Sharma",
+        "TrainingPlan": []
+    },
+    {
+        "Name ": "Justyna",
+        "TrainingPlan": [
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Single Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Back Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Single Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "12-15  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Back Extensions",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Single Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "8-10  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 4,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Back Extensions",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Single Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 4,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Back Extensions",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "15-20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "Florida Ahmed ",
+        "TrainingPlan": [
+            {
+                "Day": "+ Wednesday (Rest Day)",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Wednesday (Rest Day)",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Wednesday (Rest Day)",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Wednesday (Rest Day)",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Shrenik Vaidya",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": [
+                    {
+                        "Name": "2. Barbell Bench Press",
+                        "Sets": 3,
+                        "Reps": "8-12"
+                    },
+                    {
+                        "Name": "3. Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "10-15"
+                    },
+                    {
+                        "Name": "4. Tricep Pushdown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "5. Overhead Dumbbell Extension",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": [
+                    {
+                        "Name": "2. Pull-ups (or Assisted Pull-ups)",
+                        "Sets": 3,
+                        "Reps": "as many  as possible"
+                    },
+                    {
+                        "Name": "3. Barbell Rows",
+                        "Sets": 3,
+                        "Reps": "8-12"
+                    },
+                    {
+                        "Name": "4. Dumbbell Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "5. Hammer Curls (with dumbbells)",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3: Legs**",
+                "Exercises": [
+                    {
+                        "Name": "2. Squats",
+                        "Sets": 3,
+                        "Reps": "8-12"
+                    },
+                    {
+                        "Name": "3. Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "4. Lunges",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    },
+                    {
+                        "Name": "5. Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4: Shoulders and Abs**",
+                "Exercises": [
+                    {
+                        "Name": "2. Seated Dumbbell Shoulder Press",
+                        "Sets": 3,
+                        "Reps": "8-12"
+                    },
+                    {
+                        "Name": "3. Lateral Raises",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "4. Reverse Fly (with dumbbells)",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "6. Russian Twists (with dumbbells)",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "Katarzyna ",
+        "TrainingPlan": [
+            {
+                "Day": "* Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1                       |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2                       |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "F ",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Full Body (Strength Focus)**",
+                "Exercises": [
+                    {
+                        "Name": "* Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Glute Bridges",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Russian twists (light weights)",
+                        "Sets": 2,
+                        "Reps": "10-12  per side"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2: Core Focus**",
+                "Exercises": [
+                    {
+                        "Name": "* Russian twists (light weights)",
+                        "Sets": 3,
+                        "Reps": "12  per side"
+                    },
+                    {
+                        "Name": "* Leg raises (hanging leg raise machine or bodyweight)",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Bicycle crunches",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Woodchoppers (light weights)",
+                        "Sets": 2,
+                        "Reps": "12  per side"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3: Glutes Focus**",
+                "Exercises": [
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    },
+                    {
+                        "Name": "* Glute Bridges",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Step-ups (using a low step or bench)",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4: Full Body (Endurance Focus)**",
+                "Exercises": [
+                    {
+                        "Name": "* Burpees",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "* Mountain climbers",
+                        "Sets": 3,
+                        "Reps": "30-60 seconds"
+                    },
+                    {
+                        "Name": "* Jumping lunges",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    },
+                    {
+                        "Name": "* Squat jumps",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1 | Squats | 3 | 10-12 |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1 | Deadlifts | 3 | 10-12 |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1 | Bench Press | 3 | 10-12 |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1 | Leg Press | 3 | 10-12 |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2 | Plank | 3 | 30-60 sec |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2 | Russian twists | 3 | 12 reps per side |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2 | Leg raises | 3 | 10-12 reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2 | Bicycle crunches | 3 | 10-12 reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2 | Woodchoppers | 2 | 12 reps per side |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 3 | Deadlifts | 3 | 10-12 |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 3 | Hip Abduction | 2 | 10-12 reps per leg |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 3 | Glute Bridges | 2 | 10-12 reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 3 | Step-ups | 2 | 10-12 reps per leg |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 4 | Burpees | 3 | 8-10 reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 4 | Mountain climbers | 3 | 30-60 sec |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 4 | Jumping lunges | 2 | 10-12 reps per leg |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "H",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 4: Shoulders and Abs**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 5 and 6: Rest Days**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 7: Cardio**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 8 and 9: Rest Days**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 10: Chest and Triceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 11 and 12: Back and Biceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 13 and 14: Legs**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Mafalda Marques",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Shruti",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Upper Body and Core Strength**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Lower Body and Core Strength**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Cardio and Core Strength**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Jacek",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Sanju Nagar ",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ **Back Squats**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Leg Press**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Single Leg Ext**",
+                        "Sets": 3,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ **Lat Pulldown**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Bench Press**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Back Ext**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Hip Abduction**",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ **Deadlifts**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Leg Press**",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ **Hip Abduction**",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "I",
+        "TrainingPlan": [
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Single Leg Ext",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Back Ext",
+                        "Sets": 3,
+                        "Reps": "10-12  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Single Leg Ext",
+                        "Sets": 2,
+                        "Reps": "12-15  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Back Ext",
+                        "Sets": 3,
+                        "Reps": "12-15  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "+ Single Leg Ext",
+                        "Sets": 2,
+                        "Reps": "15-18  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 2,
+                        "Reps": "15-18"
+                    },
+                    {
+                        "Name": "+ Back Ext",
+                        "Sets": 2,
+                        "Reps": "15-18  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 2,
+                        "Reps": "15-18"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 1**",
+                "Exercises": [
+                    {
+                        "Name": "+ Back Squats",
+                        "Sets": 3,
+                        "Reps": "20-25"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 2,
+                        "Reps": "20-25"
+                    },
+                    {
+                        "Name": "+ Single Leg Ext",
+                        "Sets": 2,
+                        "Reps": "20-25  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 2**",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "20-25"
+                    },
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 2,
+                        "Reps": "20-25"
+                    }
+                ]
+            },
+            {
+                "Day": "* **Day 3**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Tyrone",
+        "TrainingPlan": []
+    },
+    {
+        "Name ": "Jessi",
+        "TrainingPlan": [
+            {
+                "Day": "#### Day 1: Full Body Workout",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 2: Core and Glutes",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 3: Upper Body",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 4: Rest and Recovery",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 1: Full Body Workout",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 2: Core and Glutes",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 3: Upper Body",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 4: Rest and Recovery",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 1: Full Body Workout",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 2: Core and Glutes",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 3: Upper Body",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 4: Rest and Recovery",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 1: Full Body Workout",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 2: Core and Glutes",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 3: Upper Body",
+                "Exercises": []
+            },
+            {
+                "Day": "#### Day 4: Rest and Recovery",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Shalaka",
+        "TrainingPlan": [
+            {
+                "Day": "| Week | Day 1 | Day 2 | Day 3 | Day 4 |",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 3:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 4:",
+                "Exercises": []
+            },
+            {
+                "Day": "| Week | Day 1 | Day 2 | Day 3 | Day 4 |",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 3:",
+                "Exercises": []
+            },
+            {
+                "Day": "+ Day 4:",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Chantalle ",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1 (Monday)**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2 (Tuesday)**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3 (Thursday)**",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 1: Back Squats, Leg Press, Single Leg Ext",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2: Lat Pulldown, Bench Press, Back Ext",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3: Deadlifts, Hip Abduction",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 1: Back Squats, Leg Press, Single Leg Ext (increase reps)",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2: Lat Pulldown, Bench Press, Back Ext (decrease reps)",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3: Deadlifts, Hip Abduction (add more weight or increase reps)",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Cathy",
+        "TrainingPlan": [
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Fri | Rest Day |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Fri | Rest Day |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Fri | Rest Day |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Fri | Rest Day |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Sophie Wei\u00dfgerber",
+        "TrainingPlan": [
+            {
+                "Day": "* Rest Days: 1-2 per week",
+                "Exercises": []
+            },
+            {
+                "Day": "* Rest Days: 1 per week",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "J",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Full-Body Workout**",
+                "Exercises": [
+                    {
+                        "Name": "* Back Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Single Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2: Upper Body Workout**",
+                "Exercises": [
+                    {
+                        "Name": "* Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Back Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3: Leg Day**",
+                "Exercises": [
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4: Glutes and Core Workout**",
+                "Exercises": [
+                    {
+                        "Name": "* Glute Bridges",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "10-12  per leg"
+                    },
+                    {
+                        "Name": "* Plank",
+                        "Sets": 3,
+                        "Reps": "30-60 seconds"
+                    },
+                    {
+                        "Name": "* Russian Twists",
+                        "Sets": 3,
+                        "Reps": "10-12  per side"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 5 and 6: Rest days**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Lorenz Pietsch",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1 (Lower Body Focus)**",
+                "Exercises": [
+                    {
+                        "Name": "* Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Lunges",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    },
+                    {
+                        "Name": "* Calf Raises",
+                        "Sets": 3,
+                        "Reps": "15-20"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2 (Upper Body Focus)**",
+                "Exercises": [
+                    {
+                        "Name": "* Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Lat Pulldown",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Rows",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "* Shoulder Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "* Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Tricep Dips (using a chair or bench)",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3 (Core and Glutes)**",
+                "Exercises": [
+                    {
+                        "Name": "* Deadlifts",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "* Hip Abduction",
+                        "Sets": 2,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Russian twists (using a weight or medicine ball)",
+                        "Sets": 3,
+                        "Reps": "15-20"
+                    },
+                    {
+                        "Name": "* Leg Raises (hanging leg raises or lying on back with arms extended)",
+                        "Sets": 3,
+                        "Reps": "12-15"
+                    },
+                    {
+                        "Name": "* Glute Bridges",
+                        "Sets": 2,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 4 (Rest Day)**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Emily",
+        "TrainingPlan": [
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps | Cardio |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Tim",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps (30 minutes)**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Back and Biceps (30 minutes)**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs and Shoulders (30 minutes)**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 4: Rest day**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 5: Full Body and Cardio (45 minutes)**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Tester",
+        "TrainingPlan": [
+            {
+                "Day": "Day 1",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day | Exercise | Sets | Reps |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Carina Stetca",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs and Shoulders**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 4: Cardio and Core**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 5: Rest Day or Active Recovery**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "K",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": [
+                    {
+                        "Name": "1. Barbell Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "2. Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "3. Cable Flyes",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "4. Tricep Pushdowns",
+                        "Sets": 3,
+                        "Reps": "9-11"
+                    },
+                    {
+                        "Name": "5. Tricep Dips (using a bench or chair)",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": [
+                    {
+                        "Name": "1. Pull-ups or Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "2. Barbell Rows",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "3. Seated Cable Rows",
+                        "Sets": 3,
+                        "Reps": "9-11"
+                    },
+                    {
+                        "Name": "4. Dumbbell Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "5. Hammer Curls (using dumbbells)",
+                        "Sets": 3,
+                        "Reps": "9-11"
+                    }
+                ]
+            },
+            {
+                "Day": "**Day 3: Legs and Shoulders**",
+                "Exercises": [
+                    {
+                        "Name": "1. Squats",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "2. Leg Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "3. Lunges",
+                        "Sets": 3,
+                        "Reps": "10-12  (per leg)"
+                    },
+                    {
+                        "Name": "4. Standing Military Press",
+                        "Sets": 3,
+                        "Reps": "7-9"
+                    },
+                    {
+                        "Name": "5. Seated Dumbbell Shoulder Press",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    }
+                ]
+            },
+            {
+                "Day": "| Day | Exercises | Sets | Reps |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Thursday | Cardio Day | - | - |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Udi",
+        "TrainingPlan": [
+            {
+                "Day": "Monday (Cardio Day):",
+                "Exercises": [
+                    {
+                        "Name": "+ Bicep Curls with Light Weights",
+                        "Sets": 3,
+                        "Reps": "12"
+                    },
+                    {
+                        "Name": "+ Tricep Dips",
+                        "Sets": 3,
+                        "Reps": "12"
+                    },
+                    {
+                        "Name": "+ Shoulder Press",
+                        "Sets": 3,
+                        "Reps": "12"
+                    },
+                    {
+                        "Name": "+ Chest Flys",
+                        "Sets": 3,
+                        "Reps": "12"
+                    }
+                ]
+            },
+            {
+                "Day": "Wednesday (Rest Day)",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats with Light Weights",
+                        "Sets": 3,
+                        "Reps": "12"
+                    },
+                    {
+                        "Name": "+ Lunges",
+                        "Sets": 3,
+                        "Reps": "12  per leg"
+                    },
+                    {
+                        "Name": "+ Calf Raises",
+                        "Sets": 3,
+                        "Reps": "12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "Friday (Cardio Day):",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 1                       |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 2                       |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 3                       |",
+                "Exercises": []
+            },
+            {
+                "Day": "| Day 4                       |",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Monika",
+        "TrainingPlan": [
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Squats",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Seated Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Planks",
+                        "Sets": 3,
+                        "Reps": "30-second hold"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Seated Row",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Curls",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Russian Twists",
+                        "Sets": 3,
+                        "Reps": "10-12  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Tricep Pushdowns",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Chest Press",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Seated Cable Rows",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Leg Curls",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Reverse Flys",
+                        "Sets": 3,
+                        "Reps": "10-12  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Pull-ups or Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Seated Leg Extensions",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Russian Twists",
+                        "Sets": 3,
+                        "Reps": "10-12  (per side)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Glute Bridges",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    },
+                    {
+                        "Name": "+ Calf Raises",
+                        "Sets": 3,
+                        "Reps": "10-12"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Tricep Pushdowns",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Pull-ups or Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Seated Cable Rows",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Curls",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 1:",
+                "Exercises": [
+                    {
+                        "Name": "+ Deadlifts",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Leg Press",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Hip Abductions",
+                        "Sets": 2,
+                        "Reps": "10-12  (per leg)"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 2:",
+                "Exercises": [
+                    {
+                        "Name": "+ Bench Press",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Incline Dumbbell Press",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Tricep Pushdowns",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    },
+                    {
+                        "Name": "+ Bicep Curls",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    }
+                ]
+            },
+            {
+                "Day": "* Day 3:",
+                "Exercises": [
+                    {
+                        "Name": "+ Pull-ups or Lat Pulldowns",
+                        "Sets": 3,
+                        "Reps": "4-6"
+                    },
+                    {
+                        "Name": "+ Seated Cable Rows",
+                        "Sets": 3,
+                        "Reps": "8-10"
+                    },
+                    {
+                        "Name": "+ Leg Curls",
+                        "Sets": 3,
+                        "Reps": "6-8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name ": "Shayan",
+        "TrainingPlan": [
+            {
+                "Day": "**Day 1: Chest and Triceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 2: Back and Biceps**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 3: Legs**",
+                "Exercises": []
+            },
+            {
+                "Day": "**Day 4: Shoulders and Abs**",
+                "Exercises": []
+            }
+        ]
+    },
+    {
+        "Name ": "Agnes",
+        "TrainingPlan": [
+            {
+                "Day": "Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 1:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 2:",
+                "Exercises": []
+            },
+            {
+                "Day": "Day 3:",
+                "Exercises": []
+            }
+        ]
+    }
+]
