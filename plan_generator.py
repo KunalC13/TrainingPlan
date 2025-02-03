@@ -55,17 +55,50 @@ def generate_training_plan(rules, user_data_row, llm):
     - Weekly progression details (e.g., increasing weight by 5% in Week 2).
     - Adjustments for weak points or health considerations (e.g., knee pain).
     - Optional supersets or circuits if time availability is limited.
-    3. Generate the program in the following format:
+    3. Generate the program in the following format (Training Plan overview example):
+        
+        Goal: General strength with hypertrophy focus.
+        Frequency: 3 days per week.
 
-        Week 1:
+        Structure:
+        Day 1: Lower Body (Squat Focus)
+        Day 2: Upper Body (Bench Focus)
+        Day 3: Full Body (Deadlift Focus)
 
-        Day 1: Lower Body
-        A1: Barbell Back Squat - 4x8 at 65% 1RM (e.g., 50 kg), rest 90s.
-        B1: Romanian Deadlift - 3x10 at 50% 1RM (e.g., 40 kg), rest 60s.
-        B2: Bulgarian Split Squat - 3x8 per leg, rest 60s.
-        C1: Plank Hold - 3x45 seconds.
+        Week 1: Training Details
+            Day 1: Lower Body
+            Main Lift:
+            Back Squat: 4 sets × 6 reps × 100 kg = 2,400 kg
+            Accessory Work:
+            Romanian Deadlift: 3 sets × 10 reps × 70 kg = 2,100 kg
+            Bulgarian Split Squat: 3 sets × 12 reps (per leg) × 20 kg = 1,440 kg
+            Leg Curls: 3 sets × 15 reps × 40 kg = 1,800 kg
+            Total Volume: 7,740 kg
 
-        Day 2: Upper Body ..
+            Day 2: Upper Body
+            Main Lift:
+            Bench Press: 4 sets × 6 reps × 80 kg = 1,920 kg
+            Accessory Work:
+            Dumbbell Incline Press: 3 sets × 12 reps × 25 kg = 1,800 kg
+            Pull-Ups: 4 sets × 10 reps × Bodyweight (75 kg) = 3,000 kg
+            Tricep Pushdowns: 3 sets × 15 reps × 30 kg = 1,350 kg
+            Total Volume: 8,070 kg
+
+            Day 3: Full Body
+            Main Lift:
+            Deadlift: 4 sets × 5 reps × 120 kg = 2,400 kg
+            Accessory Work:
+            Front Squat: 3 sets × 8 reps × 70 kg = 1,680 kg
+            Bent-Over Row: 4 sets × 8 reps × 60 kg = 1,920 kg
+            Plank Holds: 3 sets × 60 seconds (bodyweight) = Not calculated as load-based.
+            Total Volume: 6,000 kg
+            
+            Week 1 Summary
+            Day 1 Total: 7,740 kg
+            Day 2 Total: 8,070 kg
+            Day 3 Total: 6,000 kg
+            Weekly Volume: Sum= 21,810 kg
+
 
     Ensure the program is logically structured and aligned with the user's fitness goals and preferences.
     """

@@ -1,0 +1,88 @@
+I'll help you create a 4-week workout plan for the given user profile. Please note that I'll provide a general outline, and you may need to adjust the weights, reps, and intensity based on the individual's progress.
+
+**User Profile:**
+
+* Name: E
+* Age: 41
+* Gender: Female
+* Height: 166.0 cm
+* Weight: 59 kg
+* Fitness Goal(s): N/A
+* Fitness Level: Beginner
+* Workout Frequency: 2 days per week
+* Workout Duration: 60 minutes
+* Workout Location: Gym
+* Equipment (if home): None
+* Focus Areas: Full body, Back (upper and lower back)
+* Cardio Preference: N/A
+* Daily Activity Level: Homemaker (e.g., managing household responsibilities full-time)
+* Injury/Medical Condition: Yes
+* Injury Details (if any): Broken Knee, healed but still feels it sometimes
+
+**4-Phase Program:**
+
+**Phase 1: Building Foundation (Weeks 1-2)**
+
+* Goal: Build overall strength and muscle endurance
+* Intensity: 60-70% of 1RM
+* Volume: Moderate (3-4 sets per exercise)
+* Rest periods: 90-120 seconds between sets, 2-3 minutes between exercises
+
+**Week 1:**
+
+* **Day 1: Lower Body**
+	+ A1: Barbell Back Squat - 4x8 at 65% 1RM (e.g., 40 kg), rest 90s
+	+ B1: Romanian Deadlift - 3x10 at 50% 1RM (e.g., 30 kg), rest 60s
+	+ B2: Bulgarian Split Squat - 3x8 per leg, rest 60s
+	+ C1: Plank Hold - 3x45 seconds
+* **Day 2: Upper Body**
+	+ A1: Incline Dumbbell Press - 4x8 at 65% 1RM (e.g., 10 kg), rest 90s
+	+ B1: Bent-Over Row - 3x10 at 50% 1RM (e.g., 15 kg), rest 60s
+	+ C1: Dumbbell Bicep Curl - 3x12, rest 60s
+
+**Week 2:**
+
+* **Day 1: Lower Body**
+	+ A1: Barbell Back Squat - 4x10 at 70% 1RM (e.g., 45 kg), rest 90s
+	+ B1: Romanian Deadlift - 3x12 at 55% 1RM (e.g., 35 kg), rest 60s
+	+ B2: Bulgarian Split Squat - 3x10 per leg, rest 60s
+	+ C1: Plank Hold - 3x45 seconds
+* **Day 2: Upper Body**
+	+ A1: Incline Dumbbell Press - 4x12 at 70% 1RM (e.g., 12 kg), rest 90s
+	+ B1: Bent-Over Row - 3x14 at 60% 1RM (e.g., 18 kg), rest 60s
+	+ C1: Dumbbell Tricep Extension - 3x15, rest 60s
+
+**Phase 2: Building Strength (Weeks 3-4)**
+
+* Goal: Increase strength and muscle endurance
+* Intensity: 70-80% of 1RM
+* Volume: Moderate (3-4 sets per exercise)
+* Rest periods: 90-120 seconds between sets, 2-3 minutes between exercises
+
+**Phase 3: Hypertrophy/Endurance (Weeks 5-6)**
+
+* Goal: Increase muscle endurance and hypertrophy
+* Intensity: 60-70% of 1RM
+* Volume: High (4-5 sets per exercise)
+* Rest periods: 60-90 seconds between sets, 2 minutes between exercises
+
+**Phase 4: Power/Strength (Weeks 7-8)**
+
+* Goal: Increase power and strength
+* Intensity: 80-90% of 1RM
+* Volume: Moderate (3-4 sets per exercise)
+* Rest periods: 120-180 seconds between sets, 2-3 minutes between exercises
+
+**Additional Considerations:**
+
+* Due to the user's knee injury, reduce weight and intensity as needed.
+* Increase rest periods if needed, but prioritize progressive overload.
+* Incorporate supersets or circuits on non-strength focused days (e.g., upper body day).
+* Adjust the program based on individual progress and feedback.
+
+**Progressive Overload:**
+
+* Increase weight by 2.5-5kg every two weeks, or as soon as the user feels they can handle more.
+* Aim to increase the intensity by 1-2% each week.
+
+Please note that this is a general outline, and you should consult with a qualified fitness professional or healthcare expert before starting any new exercise program.
