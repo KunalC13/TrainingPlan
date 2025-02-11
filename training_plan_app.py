@@ -1,20 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-# Set dark theme at the top
+# Set Streamlit Page Config
 st.set_page_config(page_title="Training Plan Viewer", layout="wide", page_icon="🏋️")
 
 # Function to load and clean CSV
 @st.cache_data
 def load_training_data(file_path):
     data = pd.read_csv(file_path)
-    data.columns = data.columns.str.strip().str.replace("\n", " ").str.lower()
+    # Strip spaces, replace line breaks
+    data.columns = data.columns.str.strip().str.replace("\n", " ", regex=True)
     return data
 
 # Streamlit App
 def main():
     st.title("🏋️ Training Plan Viewer")
-    st.markdown("### 📄 Select a user to view their personalized training plan")
+    st.markdown("### 📄 Select a user to view their details and training plan")
 
     # File Upload
     uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
@@ -22,16 +23,49 @@ def main():
     if uploaded_file:
         data = load_training_data(uploaded_file)
 
+        # Get exact column names from CSV
+        column_names = list(data.columns)
+
         # Select user
-        user_names = data["name"].unique()
+        user_names = data[column_names[1]].unique()  # 'Name ' (with space)
         selected_user = st.selectbox("🔍 Choose a User", user_names)
 
         if selected_user:
-            user_data = data[data["name"] == selected_user]
+            user_data = data[data[column_names[1]] == selected_user].iloc[0]  # Extract row as Series
 
+            # Display User Details (All except 'Timestamp', 'Name', 'Training_Plan')
+            st.subheader(f"👤 User Details: {selected_user}")
+            excluded_columns = ["Timestamp", column_names[1], "Training_Plan"]
+            user_details = user_data.drop(labels=excluded_columns)
+
+            # Convert NaN values to 'Not Provided'
+            user_details = user_details.fillna("Not Provided")
+
+            # Define Styling for Better Readability
+            detail_card_style = """
+                <div style="
+                    background-color: #1E1E1E;
+                    padding: 15px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    border-left: 5px solid #FFAA33;">
+                <p style="color: #FFAA33; font-size: 16px; margin: 0px;"><b>{question}</b></p>
+                <p style="color: #EAEAEA; font-size: 16px; margin: 0px;">{answer}</p>
+                </div>
+            """
+
+            # Display Details in Styled Cards
+            user_details_html = ""
+            for key, value in user_details.items():
+                user_details_html += detail_card_style.format(question=key, answer=value)
+
+            st.markdown(user_details_html, unsafe_allow_html=True)
+
+            st.divider()  # Adds a horizontal divider line
+
+            # Display Training Plan
             with st.expander(f"📖 **Training Plan for {selected_user}**", expanded=True):
-                training_plan = user_data["training_plan"].values[0]
-                # Color-enhanced Markdown formatting
+                training_plan = user_data["Training_Plan"]
                 formatted_plan = f"""
                 <div style="background-color:#161A23;padding:15px;border-radius:10px;">
                 <pre style="color:#EAEAEA;font-size:16px;">{training_plan}</pre>

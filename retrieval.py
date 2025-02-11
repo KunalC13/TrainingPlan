@@ -10,41 +10,19 @@ def load_rules(rules_file):
 def load_user_data(csv_file):
     return pd.read_csv(csv_file)
 
-def generate_training_plan(rules, user_data_row, llm):
-    # Updated prompt template
-    prompt_template = """
-    You are a personal trainer creating a personalized training plan for a user. You have asked a few questions to the users to understand their goals, preferences, and constraints.
+def extract_user_profile(user_data_row, small_llm):
+    """
+    Uses a smaller model (llama3.1:3b) to extract a structured user profile from the raw CSV responses.
+    """
+    profile_prompt = """
+    You are extracting structured user information from survey responses to create a fitness profile.
     
-    The questions are as follows:
-    1. What is your age?
-    2. What is your gender?
-    3. What is your height?
-    4. What is your weight?
-    5. What are your fitness goals? (e.g., lose weight, gain muscle, improve endurance)
-    6. How would you rate your fitness level? (Beginner, Intermediate, Advanced)
-    7. How many days a week can you commit to working out?
-    8. How much time can you spend on each workout session?
-    9. Where are you planning to work out? (Gym, Home, Mix) If it's mix, spread the days at both gym and home
-    10. If you answered Home or Mix, what equipment do you have available?
-    11. Do you have any specific areas of the body you want to focus on? (e.g., Upper body, Legs)
-    12. Would you like to include cardio in your fitness program? If yes, please select the type(s) of cardio.
-    13. What is your daily activity level? (e.g., Sedentary, Moderate, Active)
-    14. Do you have any injury or medical condition? (Don't provide exercises that may worsen the injury)
-    15. If you answered yes to the above question, please provide a short description.
-    
-
-    Based on the following rules for creating training plans:
-    {rules}
-    Example file
-    Exercise pools (gym or home and equipment availability will be considered when creating the training plan)
-    
-    
-    And this user's data:
+    The raw data is given as follows:
     {user_data}
-    
-    Create a personalized training plan for the user in the following format:
 
-    Example format of user responses for user 'John':
+    Format the data into a structured user profile like this:
+
+    Example format:
     - Age: 35
     - Gender: Male
     - Height: 182 cm
@@ -59,8 +37,29 @@ def generate_training_plan(rules, user_data_row, llm):
     - Cardio: 
     - Activity Level: Home Office (e.g., remote work or studying from home)
     - Injury: No
+
+    Make sure the output follows this structured format and is free of unnecessary text.
+
+    """
+    user_data_text = "\n".join(f"{key}: {value if pd.notna(value) else 'Not provided'}" for key, value in user_data_row.items())
+    prompt = profile_prompt.format(user_data=user_data_text)
+    return small_llm(prompt).strip()
+
+def generate_training_plan(rules, user_profile, large_llm):
+    """
+    Uses a larger model to generate a structured training plan based on the extracted user profile and fitness rules.
+    """
+    plan_prompt = """
+    You are a personal trainer creating a structured fitness training plan for a user.
     
-    Example training plan format  for user 'John':
+    The user's profile is:
+    {user_profile}
+
+    The training plan should follow these rules:
+    {rules}
+
+    Format the training plan like this example, this is just an example, you can use your knowledge to suggest exercises.
+
     -------------------------------
     | User: [Name]                 |
     |                              |
@@ -82,44 +81,52 @@ def generate_training_plan(rules, user_data_row, llm):
     | Leg Press         3     10-12|
     | Hip Abduction     2     10-12|
     -------------------------------
-    
-    If there is an injury, give reasoning for the exercises you are choosing or how you have considered that injury.
-    Also, give time division based on time given by the user.
-    Ensure the plan is structured, clear, and tailored to the user's data and preferences.
-    
+
+    If there is an injury, explain how the plan is adapted to accommodate it.
+    Ensure clear time division based on user availability.
+    Strictly adhere to Phase 1 of training for now, without including advanced phases.
+    Make sure the plan is structured and easy to follow.
+    Cool down time should not be included in the session time.
+    Warm up time should be included in the session time.
+    Give around 4-6 exercises based on goals and user profile, you can adjust the intensity and volume based on the user's fitness level.
+
     """
-    user_data_text = "\n".join(f"{key}: {value if pd.notna(value) else 'Not provided'}" for key, value in user_data_row.items())
-
-    prompt = prompt_template.format(rules=rules, user_data=user_data_text)
-    
-    response = llm(prompt)
-    return response.strip()
-
+    prompt = plan_prompt.format(user_profile=user_profile, rules=rules)
+    return large_llm(prompt).strip()
 
 def main():
     # File paths
-    rules_file = "rules.txt"
-    csv_file = "Training_Plan_Responses.csv"
+    rules_file = "rules.md"
+    csv_file = "Responses_sample.csv"
 
     print("Loading rules...")
     rules = load_rules(rules_file)
     print("Loading user data...")
     user_data = load_user_data(csv_file)
 
-    print("Initializing LLM...")
-    llm = Ollama(model="llama3.2:1b")
-
+    print("Initializing LLMs...")
+    small_llm = Ollama(model="llama3.2:3b")
+    large_llm = Ollama(model="deepseek-r1:7b")  # Replace 'xyz' with actual larger model name
 
     print("Generating training plans...")
     training_plans = []
+    structured_profiles = []
+
     for _, row in user_data.iterrows():
-        
-        training_plan = generate_training_plan(rules, row, llm)
+        print(f"Processing user: {row['Name ']}")
+
+        user_profile = extract_user_profile(row, small_llm)
+        structured_profiles.append(user_profile)  
+        training_plan = generate_training_plan(rules, user_profile, large_llm)
         training_plans.append(training_plan)
-    
-    user_data["Training_Plan"] = training_plans
-    user_data.to_csv("user_training_plans_3.csv", index=False)
-    print("Training plans saved to 'user_training_plans.csv'.")
+
+    output_data = user_data.copy()
+    output_data["Training_Plan"] = training_plans
+
+    # Drop any extra index or automatically added columns
+    output_data.to_csv("user_training_plans_chained.csv", index=False)
+    print("Training plans saved to 'user_training_plans_chained.csv'.")
+
 
 if __name__ == "__main__":
     main()
