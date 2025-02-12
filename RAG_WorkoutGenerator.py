@@ -3,6 +3,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.llms import Ollama
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
+import pandas as pd
 
 # Step 1: Load Pre-trained Sentence Transformer Model
 embedding_model = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
@@ -76,29 +77,42 @@ def generate_workout_plan(user_name, user_data_row):
 
 # Step 9: Main Function
 def main():
-    # Example user data
-    user_name = "John Doe"
-    user_data_row = {
-        "Age": "30",
-        "Gender": "Male",
-        "Height (cm)": "180",
-        "Weight (Kg)": "75",
-        "What are your fitness goals? (You can select multiple options)": "Hypertrophy, Strength",
-        "How would you rate your fitness level?": "Intermediate",
-        "How many days per week are you planning to working out?": "4",
-        "How much time can you dedicate to each workout session?": "60 minutes",
-        "Where are you planning to work out?": "Gym",
-        "if you answered Home or mix, what equipment do you have available?": "N/A",
-        "Do you have any specific areas of the body you want to focus on?": "Upper body, Core",
-        "Would you like to include cardio in your fitness program?": "Yes",
-        "What is your daily activity?": "Moderate",
-        "Do you have any injury or medical condition?": "No",
-        "If you answered yes to above question, please provide a short description.": "N/A"
-    }
-
-    workout_plan = generate_workout_plan(user_name, user_data_row)
-    print("\nHere is your customized workout plan:\n")
-    print(workout_plan)
+    input_csv = "Training_plan_Responses.csv"  # Change this to your actual file path
+    output_csv = "workout_plans.csv"
+    
+    # Read user data from CSV
+    df = pd.read_csv(input_csv)
+    
+    # Generate workout plans for each user
+    workout_plans = []
+    for _, row in df.iterrows():
+        user_name = row["Name "]
+        user_data_row = {
+            "Age": row["Age"],
+            "Gender": row["Gender"],
+            "Height (cm)": row["Height (cm)"],
+            "Weight (Kg)": row["Weight (Kg)"],
+            "What are your fitness goals? (You can select multiple options) ": row["What are your fitness goals? (You can select multiple options) "],
+            "How would you rate your fitness level?": row["How would you rate your fitness level?"],
+            "How many days per week are you planning to working out?": row["How many days per week are you planning to working out?"],
+            "How much time can you dedicate to each workout session?": row["How much time can you dedicate to each workout session?"],
+            "Where are you planning to work out?": row["Where are you planning to work out?"],
+            "if you answered Home or mix, what equipment do you have available?": row["if you answered Home or mix, what equipment do you have available?"],
+            "Do you have any specific areas of the body you want to focus on?": row["Do you have any specific areas of the body you want to focus on?"],
+            "Would you like to include cardio in your fitness program?": row["Would you like to include cardio in your fitness program?If yes, please select the type(s) of cardio you are interested in:"],
+            "What is your daily activity?": row["What is your daily activity?"],
+            "Do you have any injury or medical condition?": row["Do you have any injury or medical condition?"],
+            "If you answered yes to above question, please provide a short description.": row["If you answered yes to above question, please provide a short description."],
+        }
+        workout_plan = generate_workout_plan(user_name, user_data_row)
+        workout_plans.append(workout_plan)
+    
+    # Add workout plans to dataframe
+    df["Training_Plan"] = workout_plans
+    
+    # Save the updated dataframe with workout plans to a new CSV
+    df.to_csv(output_csv, index=False)
+    print(f"Workout plans saved to {output_csv}")
 
 if __name__ == "__main__":
     main()
