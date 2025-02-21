@@ -82,7 +82,7 @@ def main():
     st.markdown("### 📄 Select a user to view their details and training plan")
 
     # File Upload
-    uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+    uploaded_file = st.file_uploader("Upload the file with training data", type=["csv"])
     
     if uploaded_file:
         data = load_training_data(uploaded_file)
