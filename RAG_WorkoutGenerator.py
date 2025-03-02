@@ -4,18 +4,52 @@ from langchain.llms import Ollama
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import pandas as pd
+from docx import Document  # New import to read DOCX files
 
 # Step 1: Load Pre-trained Sentence Transformer Model
 embedding_model = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
 
-# Step 2: Load Rules from Markdown File
+# Step 2: Load Rules from a Document File
+# Function to load rules from a Markdown file
 def load_rules_from_markdown(filepath):
+    """
+    Reads a MD file and returns a list of non-empty paragraphs.
+    Each paragraph is considered as one rule.
+    """
     with open(filepath, 'r') as file:
         lines = file.readlines()
     rules = [line.strip() for line in lines if line.strip() and not line.startswith('#')]
     return rules
 
-rules = load_rules_from_markdown('rules.md')
+# Function to load rules from a DOCX file using python-docx
+def load_rules_from_docx(filepath):
+    """
+    Reads a DOCX file and returns a list of non-empty paragraphs.
+    Each paragraph is considered as one rule.
+    """
+    document = Document(filepath)
+    rules = [para.text.strip() for para in document.paragraphs if para.text.strip()]
+    return rules
+
+use_docx = True  # Set to False if you prefer using a Markdown file
+
+if use_docx:
+    # Load the rule book from the DOCX file located in the "data" directory
+    rules = load_rules_from_docx('data/Rule Book for Training Plans.docx')
+else:
+    # Load rules from the Markdown file (ensure the file exists in your data directory)
+    rules = load_rules_from_markdown('data/rules.md')
+
+# Load the rule book from the DOCX file located in the "data" directory
+rules = load_rules_from_docx('data/Rule Book for Training Plans.docx')
+
+# Optionally, if you want to load the exercise library for additional context, you can do so:
+def load_text_from_docx(filepath):
+    document = Document(filepath)
+    return "\n".join([para.text.strip() for para in document.paragraphs if para.text.strip()])
+
+# Uncomment the following line if you wish to use the exercise library as well
+# exercise_library_text = load_text_from_docx('data/Exercise library App.docx')
 
 # Step 3: Create FAISS Vector Store using from_texts
 faiss_index = FAISS.from_texts(rules, embedding_model)
