@@ -77,10 +77,9 @@ def generate_workout_plan(user_name, user_data_row):
 
 # Step 9: Main Function
 def main():
-    input_csv = "Training_plan_Responses.csv"  # Change this to your actual file path
-    output_csv = "workout_plans.csv"
+    input_csv = "responses_n.csv"  # Change this to your actual file path
+    output_csv = "workout_plans1.csv"
     
-    # Read user data from CSV
     df = pd.read_csv(input_csv)
     
     # Generate workout plans for each user
@@ -107,7 +106,6 @@ def main():
         workout_plan = generate_workout_plan(user_name, user_data_row)
         workout_plans.append(workout_plan)
     
-    # Add workout plans to dataframe
     df["Training_Plan"] = workout_plans
     
     # Save the updated dataframe with workout plans to a new CSV
