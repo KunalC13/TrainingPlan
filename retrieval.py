@@ -106,7 +106,7 @@ def main():
 
     print("Initializing LLMs...")
     small_llm = Ollama(model="llama3.2:3b")
-    large_llm = Ollama(model="deepseek-r1:7b")  # Replace 'xyz' with actual larger model name
+    large_llm = Ollama(model="deepseek-r1:7b")  
 
     print("Generating training plans...")
     training_plans = []

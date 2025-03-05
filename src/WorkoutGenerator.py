@@ -156,3 +156,5 @@ class WorkoutGenerator:
             if day.AdditionalNotes:
                 print("Additional Notes:", day.AdditionalNotes)
             print("\n" + "-" * 30 + "\n")
+
+
