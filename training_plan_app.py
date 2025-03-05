@@ -1,8 +1,72 @@
 import streamlit as st
 import pandas as pd
 
-# Set Streamlit Page Config
+
 st.set_page_config(page_title="Training Plan Viewer", layout="wide", page_icon="🏋️")
+
+st.markdown("""
+    <style>
+        /* Custom Background */
+        .stApp {
+            background-color: #0E1117;
+            color: #EAEAEA;
+        }
+        
+        /* Sidebar Customization */
+        .stSidebar {
+            background-color: #161A23;
+        }
+
+        /* Styling Download Button */
+        div.stDownloadButton > button {
+            background-color: #FFAA33 !important;
+            color: black !important;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+        }
+        
+        div.stDownloadButton > button:hover {
+            background-color: #FF8800 !important;
+        }
+
+        /* Styling Selectbox */
+        .stSelectbox div[data-baseweb="select"] {
+            background-color: #161A23 !important;
+            color: #EAEAEA !important;
+        }
+
+        /* Expander Styling */
+        .stExpander {
+            background-color: #1E1E1E !important;
+            border-radius: 10px !important;
+        }
+
+        /* Scrollbar Customization */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #FFAA33;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1E1E1E;
+        }
+
+        /* Markdown Styling */
+        pre {
+            background-color: #161A23 !important;
+            border-radius: 10px !important;
+            padding: 15px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+
+# Set Streamlit Page Config
 
 # Function to load and clean CSV
 @st.cache_data
@@ -18,7 +82,7 @@ def main():
     st.markdown("### 📄 Select a user to view their details and training plan")
 
     # File Upload
-    uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
+    uploaded_file = st.file_uploader("Upload the file with training data", type=["csv"])
     
     if uploaded_file:
         data = load_training_data(uploaded_file)
